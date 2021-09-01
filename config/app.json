@@ -2,5 +2,13 @@
   "app_name": "gin-shop",
   "app_mode": "debug",
   "app_host": "localhost",
-  "app_port": "8090"
+  "app_port": "8090",
+  "sms": {
+    "sign_name": "线上餐厅",
+    "template_code": "sms",
+    "app_key": "forkey",
+    "app_secret": "forsercret",
+    "region_id": "cn-aaa"
+
+  }
 }
