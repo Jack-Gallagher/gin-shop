@@ -24,6 +24,10 @@ type SmsConfig struct {
 
 var _cfg *Config = nil
 
+func GetConfig() *Config {
+	return _cfg
+}
+
 func ParseConfig(path string) (*Config, error) {
 
 	file, err := os.Open(path)
